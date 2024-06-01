@@ -1,0 +1,36 @@
+/**********************************************************/
+/****************** FOOTER-SECTION ******************/
+/**********************************************************/
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #1b1b1b;
+  height: 50px;
+  width: 100%;
+  color: #a8a8a8;
+  z-index: 999;
+}
+
+.footer span {
+  color: #a8a8a8;
+}
+
+/****************************************/
+/***** FOOTER-SECTION - (481px - 768px)  *****/
+/****************************************/
+@media all and (max-width: 768px) {
+  .footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #1b1b1b;
+    height: 40px;
+    width: 100%;
+    color: #a8a8a8;
+  }
+
+  .footer span {
+    font-size: 12px;
+  }
+}

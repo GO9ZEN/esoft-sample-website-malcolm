@@ -1,0 +1,77 @@
+.services-box-img {
+  height: 300px;
+  width: 400px;
+  /* background: #003f5c; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  border-radius: 10px;
+  transition: all 0.5s ease;
+  overflow: hidden;
+}
+
+.services-box-img:hover {
+  transform: translateY(-10px);
+}
+
+.services-box img {
+  height: 100%;
+  width: 100%;
+}
+
+/****************************************/
+/***** SERVICES-SECTION - (1025px - 1200px)  *****/
+/****************************************/
+@media all and (max-width: 1200px) {
+  .services-box {
+    height: 280px;
+    width: 380px;
+    gap: 23px;
+  }
+}
+
+/****************************************/
+/***** SERVICES-SECTION - (769px - 1024px)  *****/
+/****************************************/
+@media all and (max-width: 1024px) {
+  .services-box {
+    height: 260px;
+    width: 360px;
+    gap: 21px;
+  }
+}
+
+/****************************************/
+/***** SERVICES-SECTION - (481px - 768px)  *****/
+/****************************************/
+@media all and (max-width: 768px) {
+  .services-box {
+    height: 240px;
+    width: 340px;
+    gap: 19px;
+  }
+}
+
+/****************************************/
+/***** SERVICES-SECTION - (321px - 480px)  *****/
+/****************************************/
+@media all and (max-width: 480px) {
+  .services-box {
+    height: 200px;
+    width: 300px;
+    gap: 17px;
+  }
+}
+
+/****************************************/
+/***** SERVICES-SECTION - (0px - 320px)  *****/
+/****************************************/
+@media all and (max-width: 320px) {
+  .services-box {
+    height: 180px;
+    width: 260px;
+    gap: 16px;
+  }
+}
